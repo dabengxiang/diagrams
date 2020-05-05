@@ -1,14 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-05-05T13:31:54.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="VOcXxukSXtSCcyUB5pq7" version="13.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-05T14:50:36.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="O_gePTjHlr_YGr4S8Keo" version="13.0.7" type="github">
   <diagram id="3dJP_p92v_L3h6OjJgmu" name="第 1 页">
-    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QnWnLeeNvjg780qq8Ftu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-1" target="QnWnLeeNvjg780qq8Ftu-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="230" y="190" />
-              <mxPoint x="470" y="190" />
+              <mxPoint x="310" y="175" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -18,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-1" value="服务消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="250" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-3" target="QnWnLeeNvjg780qq8Ftu-5">
           <mxGeometry relative="1" as="geometry" />
@@ -29,34 +28,125 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-3" value="服务提供者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="1200" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-5" value="服务注册中心&lt;br&gt;服务提供者Ip&amp;nbsp; +&amp;nbsp;端口&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="160" width="340" height="60" as="geometry" />
+          <mxGeometry x="530" y="160" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-10" target="QnWnLeeNvjg780qq8Ftu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-10" value="接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="300" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QnWnLeeNvjg780qq8Ftu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-12" target="QnWnLeeNvjg780qq8Ftu-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="255" y="300" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-12" value="端口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="260" width="70" height="40" as="geometry" />
+          <mxGeometry x="810" y="310" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-14" value="接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="975" y="300" width="70" height="40" as="geometry" />
+          <mxGeometry x="1240" y="330" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-16" target="QnWnLeeNvjg780qq8Ftu-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-16" value="proxy&lt;br&gt;动态代理对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="172" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="237.5" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-18" target="QnWnLeeNvjg780qq8Ftu-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="560" />
+              <mxPoint x="90" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-29" value="拿取服务注册表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QnWnLeeNvjg780qq8Ftu-28">
+          <mxGeometry x="-0.0775" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-18" target="QnWnLeeNvjg780qq8Ftu-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnWnLeeNvjg780qq8Ftu-18" value="cluster&lt;br&gt;负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="172" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="237.5" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-20" target="QnWnLeeNvjg780qq8Ftu-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-20" value="protocol&lt;br&gt;选择一种服务协议请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="740" width="152.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-22" target="QnWnLeeNvjg780qq8Ftu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-22" value="exchange&lt;br&gt;请求封装为request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-24" value="网络通信框架&lt;br&gt;nettty/mina" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-26" value="服务注册表&lt;br&gt;ip+端口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="190" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-30" target="QnWnLeeNvjg780qq8Ftu-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="314" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-30" value="loadbalance&lt;br&gt;选择一台机器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-33" target="QnWnLeeNvjg780qq8Ftu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-40" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QnWnLeeNvjg780qq8Ftu-34">
+          <mxGeometry x="0.4139" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-33" value="序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="950" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-35" target="QnWnLeeNvjg780qq8Ftu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-39" value="监听" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QnWnLeeNvjg780qq8Ftu-38">
+          <mxGeometry x="-0.1214" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-35" value="反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="292.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-37" target="QnWnLeeNvjg780qq8Ftu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-37" value="server&lt;br&gt;&lt;span&gt;nettty/mina&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="285" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-41" target="QnWnLeeNvjg780qq8Ftu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-41" value="exchange&lt;br&gt;解析exchange" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-43" target="QnWnLeeNvjg780qq8Ftu-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-43" value="&lt;span&gt;protocol&lt;/span&gt;&lt;br&gt;&lt;span&gt;解析协议请求&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnWnLeeNvjg780qq8Ftu-45" target="QnWnLeeNvjg780qq8Ftu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QnWnLeeNvjg780qq8Ftu-45" value="动态代理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
