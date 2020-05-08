@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-08T14:47:03.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="kcFhrCIze0WXS1WfwW6K" version="13.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-08T14:48:27.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="pHJPo6gZXC91hDzNVUao" version="13.0.8" type="github">
   <diagram id="AmwGPMDgtkDO62_W9_XX" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YjBiWQQiz-TQu3ibNypm-25" value="相应请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YjBiWQQiz-TQu3ibNypm-24">
+        <mxCell id="YjBiWQQiz-TQu3ibNypm-25" value="响应请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YjBiWQQiz-TQu3ibNypm-24">
           <mxGeometry x="-0.0754" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -143,6 +143,18 @@
         <mxCell id="YjBiWQQiz-TQu3ibNypm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YjBiWQQiz-TQu3ibNypm-4" target="YjBiWQQiz-TQu3ibNypm-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YjBiWQQiz-TQu3ibNypm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YjBiWQQiz-TQu3ibNypm-4" target="YjBiWQQiz-TQu3ibNypm-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjBiWQQiz-TQu3ibNypm-34" value="发送响应请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YjBiWQQiz-TQu3ibNypm-33">
+          <mxGeometry x="0.1412" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YjBiWQQiz-TQu3ibNypm-4" value="socketChannel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="360" width="100" height="50" as="geometry" />
         </mxCell>
@@ -175,6 +187,13 @@
         </mxCell>
         <mxCell id="YjBiWQQiz-TQu3ibNypm-26" value="socketChannel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="195" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjBiWQQiz-TQu3ibNypm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.317;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YjBiWQQiz-TQu3ibNypm-29" target="9E2Gv1kkecniJKOh5GJY-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="399" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YjBiWQQiz-TQu3ibNypm-29" value="process线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="466" y="190" width="120" height="60" as="geometry" />
