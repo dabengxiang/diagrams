@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-17T00:35:15.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="IvQQkEP9Yesd0CMRAIrQ" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-17T00:37:14.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="dFWX0bCeKGkCzURfXXfZ" version="13.4.4" type="github">
   <diagram id="7Lpw1YlAb3dBw3zPXyh0" name="第 1 页">
     <mxGraphModel dx="3231" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -25,13 +25,13 @@
         <mxCell id="OS2gDUffejOHj6z3nu3k-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OS2gDUffejOHj6z3nu3k-5" value="&lt;p style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt ; line-height: 120%&quot;&gt;UsernamePassword&lt;br&gt;AuthenticationFilter&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="OS2gDUffejOHj6z3nu3k-5" value="&lt;p style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt ; line-height: 120%&quot;&gt;UsernamePassword&lt;br&gt;AuthenticationFilter&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;fillColor=#d5e8d4;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="610" y="80" width="350" height="600" as="geometry" />
         </mxCell>
         <mxCell id="OS2gDUffejOHj6z3nu3k-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OS2gDUffejOHj6z3nu3k-5" vertex="1">
           <mxGeometry x="170" y="55" width="10" height="245" as="geometry" />
         </mxCell>
-        <mxCell id="OS2gDUffejOHj6z3nu3k-7" value="&lt;p style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt&quot;&gt;AbstractAuthentication&lt;br&gt;ProcessingFilter&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="OS2gDUffejOHj6z3nu3k-7" value="&lt;p style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt&quot;&gt;AbstractAuthentication&lt;br&gt;ProcessingFilter&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontStyle=1;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="350" y="80" width="220" height="600" as="geometry" />
         </mxCell>
         <mxCell id="oUXZHV2tn5eLnFRcVEzb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="OS2gDUffejOHj6z3nu3k-7" source="OS2gDUffejOHj6z3nu3k-8" target="oUXZHV2tn5eLnFRcVEzb-7" edge="1">
@@ -67,7 +67,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OS2gDUffejOHj6z3nu3k-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt&quot;&gt;ProviderManager&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="OS2gDUffejOHj6z3nu3k-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;courier new&amp;quot; ; font-size: 10.5pt&quot;&gt;ProviderManager&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1120" y="70" width="110" height="630" as="geometry" />
         </mxCell>
         <mxCell id="OS2gDUffejOHj6z3nu3k-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="OS2gDUffejOHj6z3nu3k-11" vertex="1">
