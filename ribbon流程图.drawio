@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T12:26:41.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="aJtahiEy1o1vD33Ftd0B" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T13:16:59.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="f_ba-JemZvqB0Y72vA4X" version="13.5.8" type="github">
   <diagram id="QTUkiyYwJ8bFv8kXaCUj" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,11 @@
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.377;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontSize=24;" parent="1" source="rwn3hCTRK5JUZwdlp3aM-31" target="rwn3hCTRK5JUZwdlp3aM-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-20" value="第二步骤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwn3hCTRK5JUZwdlp3aM-134">
+          <mxGeometry x="0.1453" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-31" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RibbonLoadBalancerClient&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;.&lt;/span&gt;execute&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="1120" width="275" height="80" as="geometry" />
@@ -456,6 +461,42 @@
         </mxCell>
         <mxCell id="FZJANLwIgoliK1O1I6n5-17" value="通过配置文件可以指定负载均衡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1570" y="1640" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-18" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.execute(serviceId, ribbonServer, request);&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1990" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FZJANLwIgoliK1O1I6n5-21" target="FZJANLwIgoliK1O1I6n5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-33" value="&lt;b&gt;第一步构造&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;ServiceRequestWrapper&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZJANLwIgoliK1O1I6n5-27">
+          <mxGeometry x="-0.3116" y="25" relative="1" as="geometry">
+            <mxPoint x="45.06" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-21" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;request.apply(serviceInstance)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2100" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-22" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;font color=&quot;#000080&quot;&gt;&lt;b&gt;request=&lt;/b&gt;&lt;/font&gt;ServiceRequestWrapper&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1990" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-25" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;InterceptingClientHttpRequest.execute&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2220" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-26" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;request.getURI()&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2350" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;通过匿名内部类来构建，&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;在LoadBalancerRequestFactory这里面&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;strokeWidth=2;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2160" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZJANLwIgoliK1O1I6n5-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZJANLwIgoliK1O1I6n5-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="2180" as="sourcePoint" />
+            <mxPoint x="840" y="2180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="2138" />
+              <mxPoint x="740" y="2180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
