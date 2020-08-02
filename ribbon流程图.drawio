@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T04:23:44.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="13.3.0" etag="VFNwEZ-ypKnZizBZ5vPx" type="github"><diagram id="QTUkiyYwJ8bFv8kXaCUj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-02T04:48:59.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AKV4XNysDb2XdrebUTD8" version="13.3.0" type="github">
+  <diagram id="QTUkiyYwJ8bFv8kXaCUj" name="第 1 页">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-4" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 10.5pt&quot;&gt;RibbonAutoConfiguration&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-5" target="rwn3hCTRK5JUZwdlp3aM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerAutoConfiguration&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="180" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="300" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-6" target="rwn3hCTRK5JUZwdlp3aM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-6" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-7" target="rwn3hCTRK5JUZwdlp3aM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-7" target="rwn3hCTRK5JUZwdlp3aM-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="305" />
+              <mxPoint x="1020" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-18" value="通过restTemplateCustomier来,&lt;br&gt;让restTemplate加入interceptor&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="rwn3hCTRK5JUZwdlp3aM-16">
+          <mxGeometry x="-0.1319" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RestTemplateCustomizer&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-9" target="rwn3hCTRK5JUZwdlp3aM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;SmartInitializingSingleton&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-10" value="使加了@LoadBalanced的restemplate加入interceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-22" value="bean的加载过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="973" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-23" target="rwn3hCTRK5JUZwdlp3aM-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-23" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt; &lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;restTemplate&lt;/span&gt;.getForObject();&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="710" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-25" value="因为在bean的初始化的时候，给注解加了@LoadBalanced的restTemplate加了过滤器&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor.&lt;/span&gt;intercept&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="920" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
