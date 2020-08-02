@@ -1,36 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T04:48:59.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="AKV4XNysDb2XdrebUTD8" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T05:04:00.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="jIyZmZgPEBHrEjMdDHBO" version="13.3.0" type="github">
   <diagram id="QTUkiyYwJ8bFv8kXaCUj" name="第 1 页">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rwn3hCTRK5JUZwdlp3aM-4" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 10.5pt&quot;&gt;RibbonAutoConfiguration&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="90" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rwn3hCTRK5JUZwdlp3aM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-5" target="rwn3hCTRK5JUZwdlp3aM-15">
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-5" target="rwn3hCTRK5JUZwdlp3aM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerAutoConfiguration&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="180" width="320" height="70" as="geometry" />
+          <mxGeometry x="820" y="217.5" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="610" y="120" width="300" height="560" as="geometry" />
+          <mxGeometry x="1160" y="160" width="300" height="560" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-6" target="rwn3hCTRK5JUZwdlp3aM-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-6" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="170" width="230" height="60" as="geometry" />
+          <mxGeometry x="1200" y="210" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-7" target="rwn3hCTRK5JUZwdlp3aM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-7" target="rwn3hCTRK5JUZwdlp3aM-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060" y="470" as="targetPoint" />
+            <mxPoint x="1610" y="510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1020" y="305" />
-              <mxPoint x="1020" y="577" />
+              <mxPoint x="1570" y="345" />
+              <mxPoint x="1570" y="617" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -40,19 +37,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RestTemplateCustomizer&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="280" width="230" height="50" as="geometry" />
+          <mxGeometry x="1200" y="320" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-9" target="rwn3hCTRK5JUZwdlp3aM-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-9" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;SmartInitializingSingleton&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="390" width="230" height="80" as="geometry" />
+          <mxGeometry x="1200" y="430" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-10" value="使加了@LoadBalanced的restemplate加入interceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="530" width="230" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="rwn3hCTRK5JUZwdlp3aM-22" value="bean的加载过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="973" y="160" width="100" height="20" as="geometry" />
+          <mxGeometry x="1200" y="570" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-23" target="rwn3hCTRK5JUZwdlp3aM-30">
           <mxGeometry relative="1" as="geometry">
@@ -65,8 +59,86 @@
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-25" value="因为在bean的初始化的时候，给注解加了@LoadBalanced的restTemplate加了过滤器&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="800" width="230" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-30" target="rwn3hCTRK5JUZwdlp3aM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rwn3hCTRK5JUZwdlp3aM-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;LoadBalancerInterceptor.&lt;/span&gt;intercept&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="920" width="270" height="80" as="geometry" />
+          <mxGeometry x="115" y="870" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-31" target="rwn3hCTRK5JUZwdlp3aM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-58" value="1.获取负载均衡器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwn3hCTRK5JUZwdlp3aM-57">
+          <mxGeometry x="-0.1342" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-31" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RibbonLoadBalancerClient&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;.&lt;/span&gt;execute&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1030" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-33" target="rwn3hCTRK5JUZwdlp3aM-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="369" y="300" />
+              <mxPoint x="369" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-47" value="bean的加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwn3hCTRK5JUZwdlp3aM-46">
+          <mxGeometry x="0.3279" y="1" relative="1" as="geometry">
+            <mxPoint x="103" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-33" target="rwn3hCTRK5JUZwdlp3aM-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-50" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;@AutoConfigureBefore&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwn3hCTRK5JUZwdlp3aM-48">
+          <mxGeometry x="-0.0842" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-33" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RibbonAutoConfiguration&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-37" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;bean的加载过程&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-39" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="320" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;RibbonLoadBalancerClient&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="357.5" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-35" target="rwn3hCTRK5JUZwdlp3aM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-35" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;springClientFactory&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="212.5" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwn3hCTRK5JUZwdlp3aM-51" target="rwn3hCTRK5JUZwdlp3aM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-51" value="@LoadBalaced" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="90" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-55" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rwn3hCTRK5JUZwdlp3aM-34">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="110" y="1080" as="sourcePoint" />
+            <mxPoint x="70" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1080" />
+              <mxPoint x="40" y="790" />
+              <mxPoint x="40" y="388" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwn3hCTRK5JUZwdlp3aM-56" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;loadBalancer =&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt; &lt;/span&gt; &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.getLoadBalancer(serviceId);&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1180" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
