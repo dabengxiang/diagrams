@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-03T08:59:20.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="nX6JJwPm-oWlvHNzZX33" version="13.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-03T09:01:26.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="WKEb0nSjV9WtdHXzqvFl" version="13.5.7" type="github">
   <diagram id="QTUkiyYwJ8bFv8kXaCUj" name="第 1 页">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -558,6 +558,29 @@
         </mxCell>
         <mxCell id="FZJANLwIgoliK1O1I6n5-54" value="通过不同的负均衡算法得到相应的地址，默认的负载均衡算法是轮训" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF0080;" parent="1" vertex="1">
           <mxGeometry x="625" y="1830" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YOgDsydqqxQcGKjp_ivR-2" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FZJANLwIgoliK1O1I6n5-11" target="rwn3hCTRK5JUZwdlp3aM-144">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1285" y="1710" as="sourcePoint" />
+            <mxPoint x="1385" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="1680" />
+              <mxPoint x="1450" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOgDsydqqxQcGKjp_ivR-3" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 10.5pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YOgDsydqqxQcGKjp_ivR-2">
+          <mxGeometry x="-0.4855" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOgDsydqqxQcGKjp_ivR-5" value="引用的位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YOgDsydqqxQcGKjp_ivR-2">
+          <mxGeometry x="-0.4554" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOgDsydqqxQcGKjp_ivR-4" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 10.5pt&quot;&gt;ZoneAvoidanceRule是PredicateBasedRule子类&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1710" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
